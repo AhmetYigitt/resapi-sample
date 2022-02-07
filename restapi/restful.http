@@ -1,0 +1,20 @@
+
+
+
+GET HTTP://localhost:3000
+
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name":"yigit",
+    "age":25
+}
+
+###
+POST http://localhost:3000/
+Content-Type: application/x-www-form-urlencoded
+
+name=yiğit&age=22
